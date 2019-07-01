@@ -12,6 +12,7 @@ Community curated plugins for c-lightning.
 | [donations][donations]             | A simple donations page to accept donations from the web                   |
 | [graphql][graphql]                 | Exposes the c-lightning API over [graphql][graphql-spec]                   |
 | [lightning-qt][lightning-qt]       | A bitcoin-qt-like GUI for lightningd                                       |
+| [monitor][monitor]                 | helps you analyze the health of your peers and channels                    |
 | [persistent-channels][pers-chans]  | Maintains a number of channels to peers                                    |
 | [probe][probe]                     | Regularly probes the network for stability                                 |
 | [prometheus][prometheus]           | Lightning node exporter for the prometheus timeseries server               |
@@ -101,3 +102,4 @@ your environment.
 [graphql-spec]: https://graphql.org/
 [autoreload]: https://github.com/lightningd/plugins/tree/master/autoreload
 [lightning-qt]: https://github.com/darosior/pylightning-qt
+[monitor]: https://github.com/renepickhardt/plugins/tree/master/monitor
